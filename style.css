@@ -1,0 +1,116 @@
+/*
+    Theme Name: Rene
+    Text Domain: Rene
+    Version: 1.0
+    Description: Wordpress Theme
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial;
+}
+
+header {
+  width: 920px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.attachment-post-thumbnail {
+  width: 150px;
+  height: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  margin: 0 12px;
+  color: rgb(77, 77, 77);
+}
+
+main {
+  margin-top: 50px;
+}
+
+.main-title {
+  font-size: 2.2em;
+  margin-bottom: 18px;
+}
+
+.excerpt {
+  margin: 20px 0;
+}
+
+input[type="submit"] {
+  padding: 6px;
+  background: rgb(0, 149, 255);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-left: 12px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+
+article p {
+  margin: 18px 0;
+}
+
+.thumbnail {
+  display: inline-block;
+}
+
+.content {
+  display: inline;
+  margin-left: 25px;
+}
+
+.date {
+  color: gray;
+}
+
+.read-more {
+  background: rgb(0, 149, 255);
+  margin: 12px 0;
+  border-radius: 6px;
+  color: white;
+  padding: 6px;
+}
+
+footer {
+  margin: 100px 0;
+}
+
+.pagination {
+  margin-top: 50px;
+}
+
+.post-article {
+  margin-top: 50px;
+  display: flex;
+}
+
+.wp-post-image {
+  border-radius: 6px;
+}
